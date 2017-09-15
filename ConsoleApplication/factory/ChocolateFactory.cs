@@ -1,18 +1,16 @@
 ﻿namespace ConsoleApplication.factory{
-
-    class CaramelFactory: AbstractFactory{
-        
+    public class ChocolateFactory: AbstractFactory{
         public override ICandy GetCaramelCandy(){
-            ICandy iCandy = new CaramelCandy();
-            return iCandy;
+            return null;
         }
 
         public override ICandy GetSaltCandy(){
-            return null;
+           return null;
         }
 
         public override ICandy GetChocolateCandy(){
-            return null;
+            ICandy iCandy = new ChocolateCandy();
+            return iCandy;
         }
     }
 }

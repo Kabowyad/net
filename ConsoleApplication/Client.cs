@@ -2,14 +2,14 @@
 
 namespace ConsoleApplication{
     public class Client{
-        private Candy _candy;
+        ICandy candy;
 
         public Client(AbstractFactory abstractFactory){
-            _candy = abstractFactory.CreateCandy();
+            candy = abstractFactory.GetCaramelCandy();
         }
        
         public void Eat() {
-            System.Console.Write(_candy.GetType());
+            System.Console.Write(candy.GetCandyType());
         }
     }
 }

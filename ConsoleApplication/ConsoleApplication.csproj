@@ -42,12 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="entity\Candy.cs" />
+    <Compile Include="entity\ChocolateCandy.cs" />
+    <Compile Include="entity\ICandy.cs" />
     <Compile Include="entity\CaramelCandy.cs" />
+    <Compile Include="entity\SaltCandy.cs" />
     <Compile Include="factory\AbstractFactory.cs" />
+    <Compile Include="factory\AbstractFactoryProduction.cs" />
     <Compile Include="factory\CaramelFactory.cs" />
+    <Compile Include="factory\ChocolateFactory.cs" />
+    <Compile Include="factory\SaltFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
