@@ -36,6 +36,9 @@
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c">
       <HintPath>..\packages\NLog.5.0.0-beta10\lib\net45\NLog.dll</HintPath>
     </Reference>
@@ -69,7 +72,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="serializable\BinSer.cs" />
+    <Compile Include="serializable\JsonSer.cs" />
     <Compile Include="serializable\Ser.cs" />
+    <Compile Include="serializable\XmlSer.cs" />
     <Compile Include="Tests\Class1.cs" />
   </ItemGroup>
   <ItemGroup>

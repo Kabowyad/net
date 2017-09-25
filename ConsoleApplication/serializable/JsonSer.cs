@@ -1,11 +1,10 @@
 ﻿using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+using Newtonsoft.Json;
 
 namespace ConsoleApplication.serializable{
-    public class BinSer: Ser{
+    public class JsonSer: Ser{
         public void IBinarySerialize(FileStream fs, SaltCandy[] ar){
-            BinaryFormatter formatter = new BinaryFormatter();
-            formatter.Serialize(fs, ar);
+            return;
         }
 
         public void IXmlSerialize(FileStream fs, SaltCandy candy){
@@ -13,7 +12,7 @@ namespace ConsoleApplication.serializable{
         }
 
         public void IJsonSerialize(ICandy candy){
-            return;
+            string json = JsonConvert.SerializeObject(candy);
         }
     }
 }

@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c2eff87-8473-411c-bb9e-b1bc1c5b7641" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/Tests/Class1.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/exception/CandyException.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/generic/CandyCollection.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/generic/CandyEnumerator.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/log4net.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.pdb" afterPath="$PROJECT_DIR$/ConsoleApplication/bin/Debug/ConsoleApplication.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.CoreCompileInputs.cache" />
+    <list default="true" id="6c2eff87-8473-411c-bb9e-b1bc1c5b7641" name="Default" comment="№2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/JsonSer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/XmlSer.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.pdb" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/Client.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/Client.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/ConsoleApplication.csproj" afterPath="$PROJECT_DIR$/ConsoleApplication/ConsoleApplication.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/Description.txt" afterPath="$PROJECT_DIR$/ConsoleApplication/Description.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/Program.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/entity/ICandy.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/entity/ICandy.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/entity/SaltCandy.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/entity/SaltCandy.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/factory/ChocolateFactory.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/factory/ChocolateFactory.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/packages.config" afterPath="$PROJECT_DIR$/ConsoleApplication/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs" afterPath="$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,57 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ICandy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsoleApplication/entity/ICandy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-              <folding>
-                <marker date="1506147287000" expanded="false" signature="6:73" ph="..." />
-                <marker date="1506147287000" expanded="true" signature="171:1142" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="340:452" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="497:591" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="679:757" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="793:824" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="853:944" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="994:1043" ph="{...}" />
-                <marker date="1506147287000" expanded="true" signature="1090:1137" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4net.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsoleApplication/log4net.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CandyException.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleApplication/exception/CandyException.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
               <folding>
+                <marker date="1506146978000" expanded="true" signature="53:316" ph="{...}" />
                 <marker date="1506146978000" expanded="true" signature="108:314" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ser.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ser.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="120">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1506150472000" expanded="false" signature="6:50" ph="..." />
-                <marker date="1506150472000" expanded="true" signature="93:189" ph="{...}" />
-                <marker date="1506150472000" expanded="true" signature="119:187" ph="{...}" />
+                <marker date="1506360228000" expanded="false" signature="6:50" ph="..." />
+                <marker date="1506360228000" expanded="true" signature="93:292" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="119:290" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -141,12 +98,49 @@
       <file leaf-file-name="BinSer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="210">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
-                <marker date="1506150472000" expanded="true" signature="6:70" ph="..." />
-                <marker date="1506150472000" expanded="true" signature="143:333" ph="{...}" />
-                <marker date="1506150472000" expanded="true" signature="212:327" ph="{...}" />
+                <marker date="1506360228000" expanded="false" signature="6:70" ph="..." />
+                <marker date="1506360228000" expanded="true" signature="113:514" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="143:512" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="212:327" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="394:425" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="475:506" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlSer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/XmlSer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <marker date="1506360228000" expanded="true" signature="6:48" ph="..." />
+                <marker date="1506360228000" expanded="true" signature="91:505" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="121:503" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="190:221" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="288:416" ph="{...}" />
+                <marker date="1506360228000" expanded="true" signature="466:497" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonSer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/JsonSer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <marker date="1506360245000" expanded="true" signature="6:39" ph="..." />
+                <marker date="1506360245000" expanded="true" signature="82:418" ph="{...}" />
+                <marker date="1506360245000" expanded="true" signature="113:416" ph="{...}" />
+                <marker date="1506360245000" expanded="true" signature="182:213" ph="{...}" />
+                <marker date="1506360245000" expanded="true" signature="280:311" ph="{...}" />
+                <marker date="1506360245000" expanded="true" signature="361:410" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,6 +152,7 @@
             <state relative-caret-position="60">
               <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
+                <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
                 <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
               </folding>
             </state>
@@ -170,6 +165,7 @@
             <state relative-caret-position="225">
               <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
+                <marker date="1506147287000" expanded="true" signature="51:490" ph="{...}" />
                 <marker date="1506147287000" expanded="true" signature="103:488" ph="{...}" />
                 <marker date="1506147287000" expanded="true" signature="153:189" ph="{...}" />
                 <marker date="1506147287000" expanded="true" signature="236:271" ph="{...}" />
@@ -201,7 +197,9 @@
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/factory/AbstractFactoryProduction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleApplication/serializable/XmlSer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/generic/CandyCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleApplication/serializable/JsonSer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9F8153C-41DE-4F8C-BAFD-0E32F9BF6B28/c5/d1c828f7/Object.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/generic/CandyEnumerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApplication/factory/SaltFactory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -229,16 +227,18 @@
         <option value="$PROJECT_DIR$/ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/Client.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/entity/SaltCandy.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/serializable/XmlSer.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApplication/serializable/JsonSer.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="38" />
     <option name="y" value="-1027" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -366,7 +366,7 @@
       <workItem from="1505657387108" duration="1769000" />
       <workItem from="1506014712628" duration="669000" />
       <workItem from="1506099691770" duration="2493000" />
-      <workItem from="1506354485250" duration="17000" />
+      <workItem from="1506354485250" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="№2">
       <created>1505472447851</created>
@@ -379,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18752000" />
+    <option name="totallyTimeSpent" value="20118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +391,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="-1027" width="1280" height="773" extended-state="0" />
+    <frame x="38" y="-1027" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,9 +400,9 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2395722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22760646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5315712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18416801" sideWeight="0.4948605" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2395722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5315508" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13919415" sideWeight="0.4948605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -455,27 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/factory/SaltFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleApplication/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1506147287000" expanded="false" signature="6:83" ph="..." />
-            <marker date="1506147287000" expanded="true" signature="113:504" ph="{...}" />
-            <marker date="1506147287000" expanded="true" signature="138:502" ph="{...}" />
-            <marker date="1506147287000" expanded="true" signature="217:283" ph="{...}" />
-            <marker date="1506147287000" expanded="true" signature="334:496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/entity/ICandy.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -520,6 +499,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
+            <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
             <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
           </folding>
         </state>
@@ -618,6 +598,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
+            <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
             <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
           </folding>
         </state>
@@ -642,6 +623,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding>
+            <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
             <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
           </folding>
         </state>
@@ -705,6 +687,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding>
+            <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
             <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
           </folding>
         </state>
@@ -858,6 +841,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
+            <marker date="1505471523000" expanded="true" signature="51:252" ph="{...}" />
             <marker date="1505471523000" expanded="true" signature="94:250" ph="{...}" />
           </folding>
         </state>
@@ -868,6 +852,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
+            <marker date="1506147287000" expanded="true" signature="51:490" ph="{...}" />
             <marker date="1506147287000" expanded="true" signature="103:488" ph="{...}" />
             <marker date="1506147287000" expanded="true" signature="153:189" ph="{...}" />
             <marker date="1506147287000" expanded="true" signature="236:271" ph="{...}" />
@@ -919,31 +904,65 @@
         <state relative-caret-position="135">
           <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
           <folding>
+            <marker date="1506146978000" expanded="true" signature="53:316" ph="{...}" />
             <marker date="1506146978000" expanded="true" signature="108:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/XmlSer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1506360228000" expanded="true" signature="6:48" ph="..." />
+            <marker date="1506360228000" expanded="true" signature="91:505" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="121:503" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="190:221" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="288:416" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="466:497" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/BinSer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="66" />
+        <state relative-caret-position="210">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
-            <marker date="1506150472000" expanded="true" signature="6:70" ph="..." />
-            <marker date="1506150472000" expanded="true" signature="143:333" ph="{...}" />
-            <marker date="1506150472000" expanded="true" signature="212:327" ph="{...}" />
+            <marker date="1506360228000" expanded="false" signature="6:70" ph="..." />
+            <marker date="1506360228000" expanded="true" signature="113:514" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="143:512" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="212:327" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="394:425" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="475:506" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/Ser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1506150472000" expanded="false" signature="6:50" ph="..." />
-            <marker date="1506150472000" expanded="true" signature="93:189" ph="{...}" />
-            <marker date="1506150472000" expanded="true" signature="119:187" ph="{...}" />
+            <marker date="1506360228000" expanded="false" signature="6:50" ph="..." />
+            <marker date="1506360228000" expanded="true" signature="93:292" ph="{...}" />
+            <marker date="1506360228000" expanded="true" signature="119:290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleApplication/serializable/JsonSer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <marker date="1506360245000" expanded="true" signature="6:39" ph="..." />
+            <marker date="1506360245000" expanded="true" signature="82:418" ph="{...}" />
+            <marker date="1506360245000" expanded="true" signature="113:416" ph="{...}" />
+            <marker date="1506360245000" expanded="true" signature="182:213" ph="{...}" />
+            <marker date="1506360245000" expanded="true" signature="280:311" ph="{...}" />
+            <marker date="1506360245000" expanded="true" signature="361:410" ph="{...}" />
           </folding>
         </state>
       </provider>

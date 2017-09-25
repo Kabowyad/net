@@ -1,15 +1,15 @@
 ﻿using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+using System.Xml.Serialization;
 
 namespace ConsoleApplication.serializable{
-    public class BinSer: Ser{
+    public class XmlSer: Ser{
         public void IBinarySerialize(FileStream fs, SaltCandy[] ar){
-            BinaryFormatter formatter = new BinaryFormatter();
-            formatter.Serialize(fs, ar);
+            return;
         }
 
         public void IXmlSerialize(FileStream fs, SaltCandy candy){
-            return;
+            XmlSerializer formatter = new XmlSerializer(typeof(ICandy));
+            formatter.Serialize(fs, candy);
         }
 
         public void IJsonSerialize(ICandy candy){
