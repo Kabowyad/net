@@ -4,3 +4,5 @@
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.CoreCompileInputs.cache
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.exe
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.pdb
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/nunit.framework.dll
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/nunit.framework.xml

@@ -1,4 +1,7 @@
-﻿namespace ConsoleApplication{
+﻿using System;
+
+namespace ConsoleApplication{
+    [Serializable]
     public class SaltCandy : ICandy{
         private string type;
 

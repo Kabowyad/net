@@ -1,4 +1,6 @@
-﻿using ConsoleApplication.factory;
+﻿using System;
+using ConsoleApplication.exception;
+using ConsoleApplication.factory;
 
 namespace ConsoleApplication{
     public class Client{
@@ -8,7 +10,9 @@ namespace ConsoleApplication{
             candy = abstractFactory.GetCaramelCandy();
         }
        
-        public void Eat() {
+        public void Eat(String candyType) {
+            if (candyType != "candy")
+                throw new CandyException("not a candy");
             System.Console.Write(candy.GetCandyType());
         }
     }

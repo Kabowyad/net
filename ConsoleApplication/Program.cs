@@ -9,7 +9,7 @@ namespace ConsoleApplication
         {
             AbstractFactory caramelFactory = new CaramelFactory();
             Client client = new Client(caramelFactory);
-            client.Eat();
+            client.Eat("candy");
         }
     }
 }
