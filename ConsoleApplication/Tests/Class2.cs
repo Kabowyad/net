@@ -5,6 +5,9 @@ using NUnit.Framework;
 namespace ConsoleApplication.Tests{
     [TestFixture]
     public class Class2{
+
+        delegate ArrayList delegateSort(ICandy x, ICandy y);
+        
         [Test]
         public void test(){ 
             ICandy saltCandy = new SaltCandy();
@@ -17,6 +20,8 @@ namespace ConsoleApplication.Tests{
             Func<ICandy, ICandy, ArrayList> sort = sortCandy;
             sort(caramelCandy, saltCandy);
 
+            delegateSort del = new delegateSort(delegateSortCandy);
+            ArrayList result = del.Invoke(saltCandy, caramelCandy);
         }
         
         static void compare(ICandy x, ICandy y, Action<ICandy, ICandy> delegAction){
@@ -34,5 +39,13 @@ namespace ConsoleApplication.Tests{
             arrayList.Add(y);
             return arrayList;
         }
+
+        static ArrayList delegateSortCandy(ICandy x, ICandy y){
+            ArrayList arrayList = new ArrayList();
+            arrayList.Add(x);
+            arrayList.Add(y);
+            return arrayList;
+        }
+        
     }
 }
