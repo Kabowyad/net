@@ -2,7 +2,7 @@
 using System.Xml.Serialization;
 
 namespace ConsoleApplication.serializable{
-    public class XmlSer: Ser{
+    public class Xml: Ser{
         public void IBinarySerialize(FileStream fs, SaltCandy[] ar){
             return;
         }
@@ -13,6 +13,19 @@ namespace ConsoleApplication.serializable{
         }
 
         public void IJsonSerialize(ICandy candy){
+            return;
+        }
+
+        public void IBinaryDeserialize(FileStream fs){
+            return;
+        }
+
+        public void IXmlDeserialize(FileStream fs, SaltCandy candy){
+            XmlSerializer formatter = new XmlSerializer(typeof(ICandy));
+            ICandy candyOut = (SaltCandy) formatter.Deserialize(fs);
+        }
+
+        public void IJsonDeserialize(string json){
             return;
         }
     }
