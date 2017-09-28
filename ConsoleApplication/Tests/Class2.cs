@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections;
+using System.Threading;
 using NUnit.Framework;
 
 namespace ConsoleApplication.Tests{
     [TestFixture]
     public class Class2{
-
+        protected static ArrayList multiArrayList;
+        
         delegate ArrayList delegateSort(ICandy x, ICandy y);
         
         [Test]
@@ -21,6 +23,10 @@ namespace ConsoleApplication.Tests{
             sort(caramelCandy, saltCandy);
 
             delegateSort del = new delegateSort(delegateSortCandy);
+
+            IAsyncResult resultObj = del.BeginInvoke(saltCandy, caramelCandy, null, null); // работа test не приостанавливается, sort происходит в другом потоке через делегат
+            ArrayList newResult = del.EndInvoke(resultObj); // вот тут делегат блокируется и ожидается sort
+            
             ArrayList result = del.Invoke(saltCandy, caramelCandy);
         }
         
@@ -47,5 +53,18 @@ namespace ConsoleApplication.Tests{
             return arrayList;
         }
         
+        static object locker = new object();
+
+        static void threads(){
+            for (int i = 0; i < 2; i++){
+                Thread mThread = new Thread(doAction);
+            }
+        }
+
+        static void doAction(){
+            lock (locker){
+                multiArrayList.Sort();
+            }
+        }
     }
 }
