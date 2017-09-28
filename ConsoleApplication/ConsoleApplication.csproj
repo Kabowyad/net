@@ -71,11 +71,12 @@
     <Compile Include="generic\CandyEnumerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="serializable\BinSer.cs" />
-    <Compile Include="serializable\JsonSer.cs" />
+    <Compile Include="serializable\Bin.cs" />
+    <Compile Include="serializable\Json.cs" />
     <Compile Include="serializable\Ser.cs" />
-    <Compile Include="serializable\XmlSer.cs" />
+    <Compile Include="serializable\Xml.cs" />
     <Compile Include="Tests\Class1.cs" />
+    <Compile Include="Tests\Class2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Description.txt" />
