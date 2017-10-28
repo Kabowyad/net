@@ -1,41 +1,56 @@
 ﻿using System;
 using System.Collections;
 using System.Threading;
+using log4net;
 using NUnit.Framework;
 
 namespace ConsoleApplication.Tests{
     [TestFixture]
     public class Class2{
+        private ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         protected static ArrayList multiArrayList;
         
         delegate ArrayList delegateSort(ICandy x, ICandy y);
         
         [Test]
         public void test(){ 
-            ICandy saltCandy = new SaltCandy();
-            ICandy caramelCandy = new CaramelCandy();
-            
-            Action<ICandy, ICandy> delegAction;
-            delegAction = saltC;
+            log.Debug("hello");
+            SaltCandy saltCandy = new SaltCandy();
+            SaltCandy caramelCandy = new SaltCandy();
+
+            Action<SaltCandy, SaltCandy> delegAction = saltC;
             compare(saltCandy, caramelCandy, delegAction);
 
             Func<ICandy, ICandy, ArrayList> sort = sortCandy;
             sort(caramelCandy, saltCandy);
 
-            delegateSort del = new delegateSort(delegateSortCandy);
+            delegateSort del = delegateSortCandy;
 
             IAsyncResult resultObj = del.BeginInvoke(saltCandy, caramelCandy, null, null); // работа test не приостанавливается, sort происходит в другом потоке через делегат
-            ArrayList newResult = del.EndInvoke(resultObj); // вот тут делегат блокируется и ожидается sort
+            del.EndInvoke(resultObj);
             
-            ArrayList result = del.Invoke(saltCandy, caramelCandy);
+            del.Invoke(saltCandy, caramelCandy);
+        }
+
+        [Test]
+        public void another_test(){
+           
+            Action<SaltCandy, SaltCandy> sortAction = delegate(SaltCandy candy, SaltCandy saltCandy){
+                Console.WriteLine("EverythinGood");
+              };
+            
+            SaltCandy saltCandy1 = new SaltCandy();
+            SaltCandy saltCandy2 = new SaltCandy();
+            sortAction(saltCandy1, saltCandy2);
+
         }
         
-        static void compare(ICandy x, ICandy y, Action<ICandy, ICandy> delegAction){
+        static void compare(SaltCandy x, SaltCandy y, Action<SaltCandy, SaltCandy> delegAction){
              if (x.GetCandyType().Length > y.GetCandyType().Length)
                  delegAction(x, y);
         }
        
-        static void saltC(ICandy x, ICandy y){
+        static void saltC(SaltCandy x, SaltCandy y){
             Console.WriteLine("x > y");
         }
 

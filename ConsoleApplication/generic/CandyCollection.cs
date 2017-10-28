@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 
 namespace ConsoleApplication.generic{
     public class CandyCollection<T>: ICollection<T> where T : ICandy{

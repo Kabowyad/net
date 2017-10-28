@@ -6,3 +6,9 @@
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.pdb
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/nunit.framework.dll
 /Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/nunit.framework.xml
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/log4net.dll
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/Newtonsoft.Json.dll
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/NLog.dll
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/log4net.xml
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/Newtonsoft.Json.xml
+/Users/user/RiderProjects/ConsoleApplication/ConsoleApplication/bin/Debug/NLog.xml
