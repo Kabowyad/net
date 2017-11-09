@@ -42,6 +42,10 @@ namespace ConsoleApplication.Tests{
             SaltCandy saltCandy1 = new SaltCandy();
             SaltCandy saltCandy2 = new SaltCandy();
             sortAction(saltCandy1, saltCandy2);
+            Assert.AreEqual();
+            Assert.AreNotEqual();
+            Assert.AreNotSame();
+            Assert.Contains();
 
         }
         
